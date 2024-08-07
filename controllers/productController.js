@@ -1,4 +1,3 @@
-const express = require("express");
 const Product = require("../models/product");
 
 exports.getProduct = async (req, res) => {
